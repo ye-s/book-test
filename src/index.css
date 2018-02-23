@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.bookshelf-container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px 0px; */
+  padding: 5px 10px;
+  border-bottom: 1px #bb8f61 solid;
+  position: relative;
+}
+
+.book-item-container:last-child {
+  margin-bottom: 5px;
+}
+
+/* .book-item-container button {
+  align-self: center;
+   position: absolute;
+  bottom: 0;
+} */
+
+.bookshelf-block {
+    /* display: flex; */
+    align-self: center;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.nav-wrapper {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#f0cea0, #bb8f61);
+}
+/* #f0cea0 #bb8f61 */
+
+.book-shelf-wrapper {
+  list-style: none;
+}
+
+.books-wrapper {
+  height: 110px;
+  list-style: none;
+}
+
+.book-item-container {
+  word-wrap: break-word;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 15px;
+  padding-right: 7px;
+  border-right: 1px #bb8f61 solid;
+  height: 110px;
+  position: relative;
+}
+
+.books-wrapper li div{
+  float: left;
+}
+
+button {
+  max-width: 140px;
+  min-width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0 5px 5px;
+  cursor: pointer;
+}
+input {
+  margin: 0 5px;
+}
+
+/* .book-shelf-container {
+  list-style: none;
+}
+
+.book-container {
+
+} */
