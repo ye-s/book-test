@@ -2,7 +2,7 @@
   "name": "book-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/ye-s/book-test",
+  "homepage": "https://ye-s.github.io/book-test",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
