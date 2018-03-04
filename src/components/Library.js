@@ -51,7 +51,6 @@ class Library extends React.Component {
 
                     this.setState({bookshelvesList: updatedShelvesList});
                 } else {
-                    console.log(response);
                     console.log('Your book object was invalid.');
                 }
             });
